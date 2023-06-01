@@ -1,0 +1,16 @@
+# source 디렉터리
+sales/
+stock/
+*.zip
+
+.DS_Store
+
+# 의존성 디렉터리
+.terraform/
+builds/
+
+# Status 및 환경변수 관리
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.auto.tfvars
